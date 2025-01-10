@@ -66,6 +66,9 @@ namespace CsvReaderDotNet.Controllers
 
         public async Task<IActionResult> ShowData()
         {
+            //var sql = "SELECT * FROM Employees";
+            //var employee = await _context.Employees.FromSqlRaw(sql).ToListAsync();
+
             var employee = await _context.Employees.ToListAsync();
             return View(employee);
         }

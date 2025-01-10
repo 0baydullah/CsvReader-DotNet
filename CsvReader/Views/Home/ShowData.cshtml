@@ -1,0 +1,31 @@
+﻿@model IEnumerable<CsvReaderDotNet.Models.Entities.Employee>
+
+
+<div class="d-flex justify-content-center">
+    <h1>Loaded Data From DB</h1>
+    <hr />
+    <table class="table table-striped">
+        <tr>
+            <th>Pin</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Role</th>
+            <th>BirthDate</th>
+            <th>Address</th>
+        </tr>
+        @{
+            foreach (var emp in Model)
+            {
+                var bDate = emp.DOB.ToString("dd MMM yyyy");
+                <tr>
+                    <td>@emp.PIN</td>
+                    <td>@emp.Name</td>
+                    <td>@emp.Department</td>
+                    <td>@emp.Role</td>
+                    <td>@bDate</td>
+                    <td>@emp.Address</td>
+                </tr>
+            }
+        }
+    </table>
+</div>

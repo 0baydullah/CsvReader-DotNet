@@ -1,4 +1,4 @@
-using CsvReader.Data;
+using CsvReaderDotNet.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

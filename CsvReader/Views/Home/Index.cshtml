@@ -1,7 +1,7 @@
 ﻿<div class="text-center">
     <h1 class="display-4">Welcome to CSV Reader</h1>
-    <form>
-        <input type="file" id="csv" />
-        <button type="submit" id="upload">Upload</button>
+    <form asp-controller="Home" asp-action="UploadFile" enctype="multipart/form-data" method="post">
+        <input type="file" name="file" />
+        <button type="submit">Upload</button>
     </form>
 </div>

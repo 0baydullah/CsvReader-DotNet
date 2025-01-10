@@ -1,4 +1,4 @@
-namespace CsvReader.Models
+namespace CsvReaderDotNet.Models
 {
     public class ErrorViewModel
     {

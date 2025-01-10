@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvReader", "CsvReader\CsvReader.csproj", "{D644F82D-0278-4EB6-96F1-604F25A60220}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvReader-DotNet", "CsvReader\CsvReader-DotNet.csproj", "{D644F82D-0278-4EB6-96F1-604F25A60220}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

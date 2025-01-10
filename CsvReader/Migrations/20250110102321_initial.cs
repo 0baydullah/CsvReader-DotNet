@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace CsvReader.Migrations
+namespace CsvReaderDotNet.Migrations
 {
     /// <inheritdoc />
     public partial class initial : Migration

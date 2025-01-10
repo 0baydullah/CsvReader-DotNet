@@ -4783,9 +4783,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Dev\\DotNetProjects\\CsvReader\\CsvReader\\CsvReader.csproj",
-      "projectName": "CsvReader",
-      "projectPath": "X:\\Dev\\DotNetProjects\\CsvReader\\CsvReader\\CsvReader.csproj",
+      "projectUniqueName": "X:\\Dev\\DotNetProjects\\CsvReader\\CsvReader\\CsvReader-DotNet.csproj",
+      "projectName": "CsvReader-DotNet",
+      "projectPath": "X:\\Dev\\DotNetProjects\\CsvReader\\CsvReader\\CsvReader-DotNet.csproj",
       "packagesPath": "C:\\Users\\Obaydullah\\.nuget\\packages\\",
       "outputPath": "X:\\Dev\\DotNetProjects\\CsvReader\\CsvReader\\obj\\",
       "projectStyle": "PackageReference",

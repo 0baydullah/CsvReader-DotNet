@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CsvReader.Models.Entities
+namespace CsvReaderDotNet.Models.Entities
 {
     public class Employee
     {

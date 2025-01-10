@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using CsvReader.Models.Entities;
+using CsvReaderDotNet.Models.Entities;
 
-namespace CsvReader.Data
+namespace CsvReaderDotNet.Data
 {
     public class ApplicationDbContext : DbContext
     {

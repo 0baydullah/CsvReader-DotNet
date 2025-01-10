@@ -1,0 +1,94 @@
+# Ignore build outputs and intermediate files
+bin/
+obj/
+out/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.userprefs
+.vscode/
+.vscode/*
+
+# Ignore Visual Studio working folders
+.vs/
+
+# Ignore package management
+node_modules/
+wwwroot/lib/
+
+# Ignore log files
+*.log
+
+# Ignore publish outputs
+publish/
+app.publish/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.pid
+*.gz
+
+# Ignore local configuration
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Ignore IDE-specific settings
+.idea/
+.idea/*
+*.sw?
+*.bak
+*.orig
+
+# Ignore lock files
+project.lock.json
+project.fragment.lock.json
+global.json.lock
+*.lock.json
+
+# Ignore Test Results
+TestResults/
+
+# Ignore ReSharper files
+_ReSharper*/
+*.DotSettings.user
+*.DotSettings
+
+# Ignore Rider files
+.idea/
+.idea/*
+
+# Ignore JetBrains Rider .NET Core-specific
+*.sln.iml
+
+# Ignore Coverage Results
+*.coverage
+*.coveragexml
+*.testlog
+
+# Ignore .NET Core tooling
+artifacts/
+!src/**/obj/**/.gitkeep
+
+# Ignore by debugging or production
+*.log
+debug/
+release/
+*.pdb
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Ignore application secrets
+secrets.json
+
+# Ignore git folder artifacts
+*.orig
